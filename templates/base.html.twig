@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+        {% block stylesheets %}
+            <link rel="stylesheet" href="/css/base.css"/>
+        {% endblock %}
+
+        
+    </head>
+    <body>
+<header>
+    <h1 id="title">Double-D57</h1>
+    <h2 id="description">Musiker und Komponist</h2>
+    <p id="header-p">Rock, Bluesrock & Gitarren- Loops</p>       
+         <nav>
+            <ul>
+                <li><a href="#"Welcome</a></li>
+                <li><a href="#" class="dropdown">Music</a></li>
+                    <ul class="dropdown-content">
+                    <li><a href="#.html">Songs</a></li>
+                    <li><a href="#.html">Loops</a></li>
+                    </ul>
+                <li><a href="#">Biography</a></li>
+                <li>Imprint</li>
+            </ul>
+        </nav>
+</header>
+
+    <main>
+        <article class="explainations" class="self-present">
+            <p>Herzlich Wilkommen auf meinem Band und Musikerportfolio. Bitte nehmen Sie sich 15 Minuten Zeit, um etwas auf meiner Seite zu stöbern.</p>
+                <p>Auf dieser Website möchte ich mich und das was ich mache präsentieren. <br>
+                Die Kompositionen und Arangement's sind mit Magix Musikmaker1.7 hergestellt. <br>
+                Alle Gitarren- Riff's und Loop's wurden mit Amplitube 3 modeliert und eingespielt. <br><br>
+
+                Mit freundlichen Grüßen
+                Detlef Double-D57 Düx</p>
+        </article>
+
+        <article class="explainations" class="musicpresent">
+            <h2>"Die Musik ist die Sprache der Leidenschaft."</h2>
+                <p>Richard Wagner</p>
+                <p>Neben meinen Standardwerken und komponierten Liedern, werden Sie auch Gittarren Riff's und Loop's finden. Sie können unter der Kategorie Musik einen von 2 Bereichen wählen um Musikbeispiele zu hören oder zu downloaden. Zudem biete ich für Hörproben einen Player an. Der Player öffnet sich in einem seperaten Fenster, damit sie uneingeschränkt weiter surfen können und selbst entscheiden, ob und welches Lied gespielt wird.</p>
+        </article>
+
+        <article class="to-find">
+        <h2>Was Sie hier entdecken können?!</h2>
+            <ul>
+                <li>Hörproben via Music-Player</li>
+                <li>Kostenfreier Download meiner Songs</li>
+                <li>selbst erstellte Gitarren- Loops - Bauen Sie ihr eigenes Lied</li>
+                <li>meine Biographie</li>
+                <li>Musikvideo auf Youtube</li>
+                <li>Programm Credits: Magix Music Maker & Amplitude</li>
+            </ul>
+        </article>
+    </main>
+        <footer>
+            <h1>Detlef Düx, Double-D57, Copyright, Music since 1980-2021</h1>
+                <ul>
+                <li>Songs</li>
+                <li>Loops</li>
+                <li>MusicPlayer</li>
+                <li>Biography</li>
+                <li>Imprint</li>
+                <li>Back to Top</li>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+html, body {
+    height: 100%;
+    width: auto;
+}
+
+body {
+    font-size: 100%;
+    line-height: 1.125em;
+    background-image: url(/images/backgrounddae.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+   /* header fade-in */
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  /* showHide */
+
+ 
+
+header {
+    position: fixed;
+    width: 80%;
+    height: 11%;
+    align-self: center;
+    padding: 1em;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    background:black;
+    background:rgba(0,0,0,0.8);
+    border: 2px solid green;
+}
+
+header #title {
+    font-size: 2em;   
+    color: green;
+    animation: fadeIn 6s;
+}
+
+header h2 {
+    text-align: center;
+    animation: fadeIn 9s;
+}
+
+header p {
+    text-align: center;
+    font-size: 1em;
+    animation: fadeIn 12s;
+}
+
+
+nav {
+    position: relative;
+    width: 80%;
+    border: 2px solid yellowgreen;
+}
+
+
+main {
+    position: absolute;
+    width: 90%;
+    margin-top: 33vh;
+    border: 2px solid red;
+    background-color: white;
+    
+}
+
+
+main h1 {
+    font-family: 'Rock Salt', cursive;
+
+}
+
+main h2 {
+    font-family: 'Rock Salt', cursive;
+}
+
+main p {
+    font-family: 'Times New Roman', Times, serif;
+}
