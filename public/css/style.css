@@ -36,9 +36,6 @@ a:hover,a:active,a:focus {
 	text-decoration: none;
 }
 
-hr{
-
-}
 
 :active {
 	outline: none;
@@ -218,6 +215,7 @@ hr{
 	text-align: center;
 	background: none;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;
+	filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;
 	border:0;
 	opacity: 1;
 	text-shadow: none;
@@ -499,6 +497,7 @@ hr{
 	line-height: 28px;
 	opacity:0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
 	-ms-transition: all 0.5s ease-out;
@@ -509,6 +508,7 @@ hr{
 .featured .featured-item:hover .figure p {
 	opacity:1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 .featured-item .featured-item-info h4 {
@@ -1175,6 +1175,7 @@ footer .copy-right {
 	.portfolio-content .item .p-hover	{
 		opacity:0.8;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+		filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	}
 		
 	.cta .cta-element {
